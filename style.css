@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Finlandica:ital@1&family=Fira+Sans+Condensed:wght@500;600;900&family=Mulish:wght@400;700&family=Nunito:wght@300&family=Poppins:wght@400;500;700&family=Tapestry&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+html,body {
+    height: 100%;
+}
+
+body {
+    background-color: #F7F8FC;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    margin-top: auto;
+    padding: 75px;
+    border-top: 5px solid #10182F;
+    background-color: #fff;
+}
+
+.footer-top {
+    display: flex;
+    align-items: flex-start;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 50px;
+    color: #10182F;
+}
+
+.footer-menu {
+    margin-left: auto;
+    display: flex;
+}
+
+.footer-menu nav {
+    min-width: 180px;
+    margin-right: 40px;
+}
+
+.footer-menu nav h4 {
+    font-size: 14px;
+    font-weight: bold;
+    color: 222C46;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+ul li a {
+    display: block;
+    font-size: 16px;
+    color: #545D7A;
+    padding: 10px 0;
+}
+
+ul li a:hover {
+    color: #10182F;
+}
+
+.footer-bottom {
+    padding-top: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    color: #10182F;
+}
+
+.footer-bottom .footer-menu ul  {
+    display: flex;
+}
+
+.footer-bottom .footer-menu ul li {
+    margin: 0 20px;
+}
+
+.footer-bottom .footer-menu ul li a {
+    display: block;
+    font-size: 14px;
+    color: #10182F;
+}
+
+.footer-bottom .footer-menu ul li a:hover {
+    color: #545D7A;
+}
+
+.footer-social {
+    display: flex;
+}
+
+
+.footer-social li a {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-social li a i {
+    color: #10182F;
+}
+
+.footer-social li a i:hover {
+    
+    color:#545D7A;
+}
+
